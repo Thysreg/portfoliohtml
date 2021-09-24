@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 2%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+  .content{
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 10% 90%;
+      grid-template-areas: 
+      "top right"
+      "bot right";
+
+  }
+
+  #ab{
+      position:absolute;
+      top: 11%;
+      left: 31%;
+  }
+
+  #about {
+      grid-area: about;
+      justify-self: flex-start;
+      font-size: 60pt;
+      color: black;
+      padding-right: 6px;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: end;
+      
+  }
+  #me {
+      font-size: 60pt;
+      color: white;
+      padding-left: 6px;
+      margin-top: 0;
+  }
+
+  .left{
+      
+      align-self: end;
+      display: flex;
+      flex-direction: column;
+      padding-right: 15px;
+  }
+  #top{
+    grid-area: top;
+    align-self: flex-start;
+  }
+
+  #bot {
+      grid-area: bot;
+      align-self: flex-end;
+  }
+
+
+
+  .me {
+      text-align: right;
+      margin-bottom: -0.5%;
+  }
+
+  .hello {
+      margin-top: -0.5%;
+  }
+
+  .hello {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+  .role {
+    font-size: 24px;
+    font-weight: 400;
+}
+  
+  .description {
+      font-size: 18px;
+      font-weight: 300;
+  }
+
+  #rightSide {
+      grid-area: right;
+      width: 100%;
+      height: 600px;
+      background-image: url('/images/about-me-bruce.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+  #resumeButton {
+      position: absolute;
+      padding: 0px 24px;
+      border: 4px solid white;
+      border-radius: 5px;
+      color: white;
+      top: 35%;
+      right: 35%;
+      font-size: 18px;
+      font-weight: 500;
+     
+  }
+
+#resumeButton:hover{
+    color: black;
+    background-color: white;
+}
