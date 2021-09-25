@@ -1,39 +1,31 @@
-$(".pravel").hover(function () {
+$(".projectText").mouseenter(function () {
     //stuff to do on mouse enter
-    
-}, 
-function () {
-    //stuff to do on mouse leave
-    
-});
-
-$(".projectText").hover(function () {
-    //stuff to do on mouse enter
-    if($(parent).hasClass("pravel")){
-        $(".pravel").css("background-image", "/images/pravel-portada-480.jpg");
+    if($(this).parent().hasClass("pravel") && ($(window).width()>1000)){
+        $(".pravel").css("background-image", "url('/images/pravel-portada-480.jpg')");
+        console.log("moseoverproblem");
     } 
-    else if ($(parent).hasClass("usda")){
-        $(".usda").css("background-image", "/images/usda-portada-480.jpg");
+    else if ($(this).parent().hasClass("usda") && ($(window).width()>1000)){
+        $(".usda").css("background-image", "url('/images/usda-portada-480.jpg')");
     }
-    else if ($(parent).hasClass("vent")){
-        $(".vent").css("background-image", "/images/ven-t-portada-480.jpg");
+    else if ($(this).parent().hasClass("vent") && ($(window).width()>1000)){
+        $(".vent").css("background-image", "url('/images/ven-t-portada-480.jpg')");
     }
-    else if ($(parent).hasClass("otherProjects")){
-        $(".otherProjects").css("background-image", "/images/combo-other-projects-480.jpg");
+    else if ($(this).parent().hasClass("otherProjects") && ($(window).width()>1000)){
+        $(".otherProjects").css("background-image", "url('/images/combo-other-projects-480.jpg')");
     }
-}, 
-function () {
+},); 
+$(".projectText").mouseleave(function () {
     //stuff to do on mouse leave
-    if($(parent).hasClass("pravel")){
+    if($(this).parent().hasClass("pravel") && ($(window).width()>1000)){
     $(".pravel").css("background-image", "none");
     }
-    else if ($(parent).hasClass("usda")){
+    else if ($(this).parent().hasClass("usda") && ($(window).width()>1000)){
         $(".usda").css("background-image", "none");
     }
-    else if ($(parent).hasClass("vent")){
+    else if ($(this).parent().hasClass("vent") && ($(window).width()>1000)){
         $(".vent").css("background-image", "none");
     }
-    else if ($(parent).hasClass("otherProjects")){
+    else if ($(this).parent().hasClass("otherProjects") && ($(window).width()>1000)){
         $(".otherProjects").css("background-image", "none");
     }
 });

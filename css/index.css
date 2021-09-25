@@ -73,7 +73,7 @@
   justify-content: space-between;
 }
   
-.backgroud {
+.background {
   background-image: url("/images/background.jpg");
   height: 100%;
   background-position: center;
@@ -118,27 +118,34 @@
   position: relative;
 }
 
-.proyectText {
+.projectText {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 190px;
+  width: 400px;
   height: 318px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -200px 0 0 -85px;
+  margin: -200px 0 0 -200px;
 }
+
 
 .logo {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 170px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.proyectText img {
-  margin-top: 20%;
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
+
 
 
 @media only screen and (max-width: 1000px) {
