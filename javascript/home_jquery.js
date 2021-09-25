@@ -37,3 +37,16 @@ function () {
         $(".otherProjects").css("background-image", "none");
     }
 });
+
+/* Not usefull but want to know why it did not work
+
+$(document).ready(function() {
+    checkSize();
+    $(window).resize(checkSize);
+})
+function checkSize () {
+if($(".project").hasClass("col-3") ){
+    $(".project").removeClass("col-3");
+} 
+}
+*/
