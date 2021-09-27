@@ -2,7 +2,6 @@ $(".projectText").mouseenter(function () {
     //stuff to do on mouse enter
     if($(this).parent().hasClass("pravel") && ($(window).width()>1000)){
         $(".pravel").css("background-image", "url('/images/pravel-portada-480.jpg')");
-        console.log("moseoverproblem");
     } 
     else if ($(this).parent().hasClass("usda") && ($(window).width()>1000)){
         $(".usda").css("background-image", "url('/images/usda-portada-480.jpg')");
