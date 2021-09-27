@@ -74,7 +74,7 @@
 }
   
 .background {
-  background-image: url("/images/background.jpg");
+  background-image: url("https://thysreg.github.io/portfoliohtml/images/background.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,7 +158,7 @@
   }
 
   .pravel {
-    background-image: url("/images/pravel-portada-1000.jpg");
+    background-image: url("https://thysreg.github.io/portfoliohtml/images/pravel-portada-1000.jpg");
     height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@
   }
 
   .usda {
-    background-image: url("/images/usda-portada-1000.jpg");
+    background-image: url("https://thysreg.github.io/portfoliohtml/images/usda-portada-1000.jpg");
     height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@
   }
 
   .vent {
-    background-image: url("/images/ven-t-portada-1000.jpg");
+    background-image: url("https://thysreg.github.io/portfoliohtml/images/ven-t-portada-1000.jpg");
     height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@
   }
 
   .otherProjects {
-    background-image: url("/images/combo-other-projects-480.jpg");
+    background-image: url("https://thysreg.github.io/portfoliohtml/images/combo-other-projects-480.jpg");
     height: 80vh;
   background-position: center;
   background-repeat: no-repeat;

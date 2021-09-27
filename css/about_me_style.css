@@ -130,7 +130,7 @@ a:link, a:visited {
       grid-area: right;
       width: 100%;
       height: 600px;
-      background-image: url('/images/about-me-bruce-2.jpg');
+      background-image: url('https://thysreg.github.io/portfoliohtml/images/about-me-bruce-2.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       }
@@ -179,7 +179,7 @@ a:link, a:visited {
 }
 
 #rightSide {
-  background-image: url("/images/about-me-bruce-mobile.jpg");
+  background-image: url("https://thysreg.github.io/portfoliohtml/images/about-me-bruce-mobile.jpg");
 }
 
 #resumeButton {

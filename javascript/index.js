@@ -1,16 +1,16 @@
 $(".projectText").mouseenter(function () {
     //stuff to do on mouse enter
     if($(this).parent().hasClass("pravel") && ($(window).width()>1000)){
-        $(".pravel").css("background-image", "url('/images/pravel-portada-480.jpg')");
+        $(".pravel").css("background-image", "url('https://thysreg.github.io/portfoliohtml/images/pravel-portada-480.jpg')");
     } 
     else if ($(this).parent().hasClass("usda") && ($(window).width()>1000)){
-        $(".usda").css("background-image", "url('/images/usda-portada-480.jpg')");
+        $(".usda").css("background-image", "url('https://thysreg.github.io/portfoliohtml/images/usda-portada-480.jpg')");
     }
     else if ($(this).parent().hasClass("vent") && ($(window).width()>1000)){
-        $(".vent").css("background-image", "url('/images/ven-t-portada-480.jpg')");
+        $(".vent").css("background-image", "url('https://thysreg.github.io/portfoliohtml/images/ven-t-portada-480.jpg')");
     }
     else if ($(this).parent().hasClass("otherProjects") && ($(window).width()>1000)){
-        $(".otherProjects").css("background-image", "url('/images/combo-other-projects-480.jpg')");
+        $(".otherProjects").css("background-image", "url('https://thysreg.github.io/portfoliohtml/images/combo-other-projects-480.jpg')");
     }
 },); 
 $(".projectText").mouseleave(function () {
